@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SandhyaSingh</title>
+    <link rel="stylesheet"href="index.css">
+    <script src="https://kit.fontawesome.com/3be5529905.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body id="body">
+    <div class="header">
+        <div class="container">
+            <nav>
+                <h1>Sandhya</h1>
+                <ul id="sideMenu">
+                    <li><a href="#header" class="bar">Home</a></li>
+                    <li><a href="#about" class="bar">About</a></li>
+                    <li><a href="#portfolio" class="bar">My Work</a></li>
+                    <li><a href="#contact" class="bar">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>...Reporter</p>
+                <h1>Hi, I'm <span class="name">Sandhya</span><br>Singh</h1>
+            </div>
+        </div>
+    </div>
+<!-----------about--------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="images/about.png">
+                </div>
+                <div class="col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Sandhya Singh and I am a passionate and creative mass communication student with a keen interest in storytelling and media production. With a strong foundation in content writing and Public Relations .I'm excited to explore the ever-evolving landscape of media and communication.</p>
+                    <div class="tab-titles">
+                        <p class="links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="links" onclick="openTab('experience')">Experience</p>
+                        <p class="links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Podcasts</span></li>
+                            <li><span>Radio Drama</span></li>
+                            <li><span>Ad Campaigns</span></li>
+                            <li><span>Radio Bulletin</span></li>
+                            <li><span>Radio Interview</span></li>
+                            <li><span>Graphic Design</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>6 Months</span><br>in Navduniya Bhopal</li>
+                            <li><span>1 Month Internship</span><br>in The Sootr Bhopal</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br>Completed 10<sup>th</sup> From Kendriya Vidhyalaya</li>
+                            <li><span>2019</span><br>Completed 12<sup>th</sup> From NIOS Board</li>
+                            <li><span>2023</span><br>BSc (Electronic Media) From Makhan Lal Chaturvedi University</li>
+                            <li><span>2025</span><br>MA Journalism & Mass Communication From Galgotias University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------portfolio----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <video  controls class="video">
+                        <source src="image/end.mp4" type="video/mp4"></video>
+                    <div class="layer">
+                        <h3>English Podcast</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <video controls class="video">
+                        <source src="image/hindi.mp4" type="video/mp4"></video>
+                    <div class="layer">
+                        <h3>Hindi Podcast</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <video  controls class="video">
+                        <source src="image/interview.mp4" type="video/mp4"></video>
+                    <div class="layer">
+                        <h3>Radio Interview</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <video controls class="video">
+                        <source src="image/talk.mp4" type="video/mp4"></video>
+                    <div class="layer">
+                        <h3>Radio Drama</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <video  controls class="video">
+                        <source src="image/talk.mp4" type="video/mp4"></video>
+                    <div class="layer">
+                        <h3>Radio Talk</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="image/profile.docx" download class="btn btn1"> Download</a>
+                    <div class="layer">
+                        <h3>Profile Writing</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/ad.jpeg">
+                    <div class="layer">
+                        <h3>AD Campaign</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------contact----------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sandhyarock683@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6397661885</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/sandhyaa_029?igsh=amZwbXI4cnQxNXAy"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/S79875Singh?t=bnfFqOfFQNfQlHnI0XgjwQ&s=08"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/sandhya-singh-845924243/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/SR.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <input type="hidden" name="access_key" value="7e071f2b-6ecb-46b2-90d8-e8956258f6a1">
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" placeholder="Your message" required></textarea>
+                        <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
